@@ -23,13 +23,13 @@ export default function Home() {
   ]
 
   return (
-     <div className="flex flex-col space-y-4">
+     <div className="flex flex-col space-y-4 h-full w-full">
       <div className="flex p-4 items-end w-full">
       <ModeToggle />
       </div>
-      <div className="flex flex-col p-40 space-y-4">
+      <div className="flex flex-col p-20 space-y-4">
         <div className="flex flex-col gap-4 items-center justify-center">
-          <h1 className="flex text-8xl text-black dark:text-white">
+          <h1 className="flex text-4xl md:text-8xl text-black dark:text-white">
             Welcome to
           </h1>
           <div className="pt-2">
